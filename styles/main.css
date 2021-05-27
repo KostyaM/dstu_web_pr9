@@ -203,8 +203,7 @@ footer {
 
 #news-product__wrapper{
     display: flex;
-    /* width: 90%; */
-    /* height: 80vh; */
+    z-index:1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -274,6 +273,7 @@ footer {
 #products__wrapper {
     display: flex;
     align-items: center;
+    z-index:2;
 
 }
 
@@ -359,6 +359,7 @@ footer {
     .page__wrapper-1 {
         max-width: none;
         display: block;
+        z-index:2;
     }
     #sheets-1 {
         z-index: 1;
@@ -386,7 +387,6 @@ footer {
     #title {
         color: white;
         text-align: center;
-        /* font-size: 44px; */
         margin-top: 58px;
     }
 
@@ -423,6 +423,9 @@ footer {
     }
     .navigation li {
         margin-top: 20px;
+    }
+    .logo {
+        display: none
     }
 }
 @media screen and (max-width: 650px) {
