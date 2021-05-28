@@ -91,6 +91,16 @@ footer {
         display: none;
     }
 }
+@media screen and (max-width: 700px) {
+    .logo {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .product:nth-child(2) {

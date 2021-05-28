@@ -340,6 +340,14 @@ footer {
     z-index: 2;
 }
 
+.f-text {
+    position: absolute;
+    font-size: 20px;
+    color: #9A1212;
+    margin-right: 30px;
+    right: 0;
+}
+
 @media screen and (max-width: 1200px) {
     #sheets-2 {
         display: none;
@@ -450,6 +458,12 @@ footer {
     }
     .navigation li {
         margin: 0 5px;
+    }
+    .f-text {
+        font-size: 16px;
+        right: 0;
+        margin-right: 10px;
+        margin-left: 5px;
     }
 }
 @media screen and (max-width: 700px) {
