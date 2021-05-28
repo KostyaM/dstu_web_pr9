@@ -120,6 +120,15 @@ footer {
     margin: 0 23px;
 }
 
+.select {
+    background: #9A1212 !important;
+    height: 87px !important;
+    width: auto !important;
+    font-size: 45px !important;
+    color: #fff !important;
+    border-radius: 50px !important;
+}
+
 .button {
     display: flex;
     justify-content: center;
@@ -136,6 +145,13 @@ footer {
     margin-top: -2px;
     text-decoration: none;
     color: black;
+}
+
+.select a {
+    margin-top: -2px;
+    text-decoration: none;
+    color: white;
+    padding: 8px 28px 8px;
 }
 
 #menu {
@@ -378,10 +394,29 @@ footer {
         text-align: center;
     }
 
+    .select {
+        background: #9A1212 !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        font-size: 18px !important;
+        width: 200px !important;
+        height: 40px !important;
+        border-radius: 18px !important;
+        text-align: center !important;
+    }
+
     .button a {
         margin-top: -2px;
         text-decoration: none;
-        color: black;
+        color: #000;
+    }
+
+    .select a {
+        margin-top: -2px !important;
+        text-decoration: none !important;
+        color: #fff !important;
+        font-size: 24px !important;
     }
 
     #title {
@@ -420,6 +455,9 @@ footer {
 @media screen and (max-width: 700px) {
     .navigation {
         display: block;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
     }
     .navigation li {
         margin-top: 20px;
