@@ -1,99 +1,92 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="styles/main.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Grid</title>
 </head>
 <body>
-<main>
-    <section class="bg-red">
-        <div class="content__wrapper padding-8vh">
-            <div id="top_product">
-                <div class="product_logo"><img src="./images/logo.png"></div>
-                <img id="sheet" src="./images/sheet.png">
-                <div id="img__wrapper-1">
-                    <img src="./images/sauce.png" alt="Наш соус">
-                </div>
+    <section>
+        <div id="box-1">
+            <div class="logo"><img src="./images/logo.png"></div>
+            <div id="img__wrapper-1">
+                <img src="./images/sauce.png">
             </div>
-            <div id="content">
-                <header>
-                    <ul class="navigation">
-                        <li>
-                            <div class="button"><a href="./products.html">Продукция</a></div>
-                        </li>
-                        <li>
-                            <div class="button"><a href="./company.html">О компании</a></div>
-                        </li>
-                        <li>
-                            <div class="button">
-                                <a href="">Меню</a>
-                                <div id="menu">
-                                    <div class="menu__line"></div>
-                                    <div class="menu__line"></div>
-                                    <div class="menu__line"></div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </header>
+            <img id="sheet" src="./images/sheet.png">
+        </div>
+        <div id="content__wrapper-1">
+            <ul class="navigation">
+                <li>
+                    <div class="button"><a href="pages/products.html">Продукция</a></div>
+                </li>
+                <li>
+                    <div class="button"><a href="pages/company.html">О компании</a></div>
+                </li>
+                <li>
+                    <div class="button">
+                        <a href="">Меню</a>
+                        <div id="menu">
+                            <div class="menu__line"></div>
+                            <div class="menu__line"></div>
+                            <div class="menu__line"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="info">
                 <div id="title">Быть вкусным -<br><span>просто!</span></div>
-                <div id="description">
-                    Самое ценное для нас - благополучие и свобода выбора наших покупателей. Именно
-                    потому, для производства наших продуктов мы используем только натуральное сырье, обеспечивая
-                    полезность выпускаемого продукта.
-                </div>
-                <div class="button more-details"><a href="">Подробнее</a></div>
+                <div id="description">Самое ценное для нас - благополучие и свобода выбора наших покупателей. Именно потому, для производства наших продуктов мы используем только натуральное сырье, обеспечивая полезность выпускаемого продукта.</div>
             </div>
+            <div class="button more-details"><a href="#second-section">Подробнее</a></div>
         </div>
+        <img id="sheet-1" src="./images/sheets1.png" alt="">
     </section>
-    <section class="bg-white">
-        <div class="page__wrapper-1">
-            <div id="news-product__wrapper">
-                <h1>новинки</h1>
-                <div id="products__wrapper">
-                    <div class="slide-left margin-t-30 margin-r-35">
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <div class="product" onclick="location.href = './product.html';">
-                        <div class="product-image">
-                            <div class="placeholder pr-1"></div>
-                        </div>
-                        <div class="name">варенье<br>клубничное</div>
-                    </div>
-
-                    <div class="product p-second" onclick="location.href = './product.html';">
-                        <div class="product-image">
-                            <div class="placeholder pr-2">
-                        </div>
-                    </div>
-                    <div class="name">соус<br>томатный</div>
+    <section class="bg-white" id="second-section">
+        <div id="news-product__wrapper">
+            <h1>новинки</h1>
+            <div id="products__wrapper">
+                <div class="slide-left margin-t-30 margin-r-35">
+                    <div></div>
+                    <div></div>
                 </div>
-
-                <div class="product p-last" onclick="location.href = './product.html';">
+                <div class="product">
                     <div class="product-image">
-                        <div class="placeholder pr-3">
+                        <div class="rect-1"></div>
+                        <div class="rect-2"></div>
                     </div>
+                    <div class="name"><a href="pages/product-1.html">варенье<br>клубничное</a> </div>
                 </div>
-                <div class="name">соус<br>острый</div>
-            </div>
 
-            <div class="slide-right margin-t-30">
-                <div></div>
-                <div></div>
+                <div class="product p-second">
+                    <div class="product-image">
+                        <div class="rect-1"></div>
+                        <div class="rect-2 pr-2"></div>
+                    </div>
+                    <div class="name"><a href="pages/product-2.html">соус<br>томатный </a></div>
+                </div>
+
+                <div class="product p-last">
+                    <div class="product-image">
+                        <div class="rect-1"></div>
+                        <div class="rect-2 pr-3"></div>
+                    </div>
+                    <div class="name"><a href="pages/product-3.html">соус<br>острый</a></div>
+                </div>
+
+                <div class="slide-right margin-t-30">
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
         </div>
+        <footer>
+            <div class="footer-text">
+                г.Ростов-на-Дону, ул.Вавилова, 62/1
+                <br>
+                тел.(863) 237-23-86
+            </div>
+            <img id="sheet-2" src="./images/sheets2.png">
+        </footer>
     </section>
-</main>
-<img src="./images/sheets1.png" id="sheets-1">
-<footer>
-    <div class="footer-text">
-        г.Ростов-на-Дону, ул.Вавилова, 62/1 <br>
-        тел.(863) 237-23-86
-    </div>
-    <img src="./images/sheets2.png" id="sheets-2">
-</footer>
-
 </body>
 </html>
