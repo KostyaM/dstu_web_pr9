@@ -322,10 +322,8 @@ footer {
     align-self: end;
     display: flex;
     align-items: center;
-    /* padding-left: 20px; */
     height: 100px;
     width: 100%;
-    /* width: 100%; */
     background-color: #F3F3F3;
     bottom: 0;
 }
@@ -352,7 +350,6 @@ footer {
         justify-items: center;
     }
     #sheets-1 {
-        /* display: none; */
         left: 0;
         bottom: 0;
         z-index: 1;
@@ -441,6 +438,12 @@ footer {
         display: none;
     }
 
+}
+@media screen and (max-width: 600px) {
+    .select {
+        width: 200px;
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 500px){

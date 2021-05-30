@@ -1,0 +1,55 @@
+.navigation {
+    margin-top: 40px;
+    margin-right: 40px;
+    justify-self: end;
+    grid-column: 2;
+}
+
+section {
+    height: 90vh;
+}
+
+.select {
+    background: #9A1212 !important;
+    height: 87px !important;
+    width: 310px !important;
+    font-size: 45px !important;
+    color: #fff !important;
+    border-radius: 50px !important;
+}
+
+.select a {
+    margin-top: -2px !important;
+    text-decoration: none !important;
+    color: white !important;
+    padding: 8px 28px 8px !important;
+}
+
+.button a {
+    margin-top: -2px;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 800px) {
+    .navigation {
+        grid-column: 1/3;
+        column-count: 1;
+        grid-template-columns: repeat(1, 3fr);
+        justify-self: center;
+        align-items: center;
+        margin: 0;
+        justify-items: center;
+    }
+
+    .select {
+        margin: 0 15px;
+    }
+}
