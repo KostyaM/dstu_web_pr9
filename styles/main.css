@@ -18,6 +18,22 @@ section {
     margin-left: 80px !important;
 }
 
+
+
+header {
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.no-margin {
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
 .logo {
     position: absolute;
     top: 20px;
@@ -88,6 +104,7 @@ body {
     justify-content: end;
     margin-top: 20px;
     list-style-type: none;
+    margin-right: 0px !important;
 }
 
 .navigation li {
@@ -217,10 +234,9 @@ body {
     margin-top: 80px;
 }
 
-.second {
+.vh-foot {
     height: 89.4vh !important;
 }
-
 .product {
     width: 250px;
     display: flex;
